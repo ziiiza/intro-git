@@ -1,0 +1,10 @@
+Nama		: Azizah Jihan Nabila
+NIM 		: 16423178
+Fakultas	: FTTM
+
+Soal No. 2
+Apa itu git rebase
+
+Git rebase adalah workflow yang dapat digunakan dengan memindahkan branch dari 
+starting-pointnya (branch awal) menuju commit baru. Dengan git rebase, kita dapat
+melakukan fast-forward merge tanpa membuat commit baru dalam menjalankan merge.
