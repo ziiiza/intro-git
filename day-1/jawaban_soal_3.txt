@@ -1,0 +1,16 @@
+Nama		: Azizah Jihan Nabila
+NIM 		: 16423178
+Fakultas	: FTTM
+
+Soal No. 3
+Apa itu fork dan pull request github
+
+Fork pada git adalah menyalin repository milik orang/akun lain pada github dan 
+diduplikat pada akun kita, di mana commit atau segala perubahan yang dilakukan 
+pada repository asli setelah forking tidak akan muncul di fork repo kita. Dengan
+fork, kita dapat menambahkan commit atau melakukan perubahan baru yang terputus 
+dari alur repository asli.
+
+Sedangkan pull request adalah permintaan untuk menggabungkan perubahan-perubahan 
+yang dilakukan pada suatu cabang ke cabang lainnya. Pull request dapat menampilkan 
+perbedaan antar perubahan dari cabang utama dengan cabang lainnya.
