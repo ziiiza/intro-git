@@ -1,3 +1,1 @@
-Nama      : Azizah Jihan Nabila
-NIM       : 16423178
-Fakultas  : FTTM
+Azizah Jihan Nabila | FTTM-G | 16423178
