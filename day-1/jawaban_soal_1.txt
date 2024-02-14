@@ -1,0 +1,26 @@
+Nama		: Azizah Jihan Nabila
+NIM 		: 16423178
+Fakultas	: FTTM
+
+Soal No. 1
+Apa itu merge conflict dan cara menanggulanginya
+
+Merge conflict adalah ketika dua branch dalam satu repo membuat perubahan pada line yang sama, atau 
+ketika seseorang membuat perubahan pada suatu file, namun orang lain malah menghapus file tersebut.
+
+Cara menanggulangi merge conflict adalah dengan mengenali terlebih dahulu perubahan yang menimbulkan
+error atau merge conflict tersebut dan membuat commit baru.
+
+1. Apabila telah mengunduh Git pada device, buka Git Bash
+2. Menggunakan command 'cd repo-yang-digunakan' untuk membawa kita menuju repository yang mengandung
+merge conflict yang ingin diselesaikan.
+3. Buka code editor yang biasa digunakan, seperti Visual Studio Code, lalu buka file yang mengandung
+merge conflict yang ingin diselesaikan.
+4. Untuk menemukan merge conflictnya, carilah tanda <<<<<<< HEAD pada branch utama dan dibatasi dengan
+tanda ======= dan diikuti dengan tanda >>>>>>> NAMA-BRANCH-LAINNYA.
+5. Lakukan perubahan yang diinginkan pada kedua bagian yang terkena merge conflict, lalu hapus tanda
+merge conflict, yaitu <<<<<<<, =======, dan >>>>>>>. Nantinya, perubahan yang dilakukan akan digabungkan
+pada hasil merge akhir.
+6. Simpan perubahan dengan mengetik 'git add .' pada terminal
+7. Buatlah commit terhadap hasil merge akhir tersebut dengan mengetik 'git commit -m "Menyelesaikan
+merge conflict"
